@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+}
+.item{
+    list-style: circle;
+    border: 1px solid blue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.item a{
+    text-decoration: none;
+}
+.item a:hover{
+    color:white;
+}
+.item:hover{
+    background-color: lightcyan;
+}
