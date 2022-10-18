@@ -3,7 +3,7 @@
 }
 .item{
     list-style: circle;
-    border: 1px solid blue;
+    border: 1px solid orange;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
@@ -15,5 +15,8 @@
     color:white;
 }
 .item:hover{
-    background-color: lightcyan;
+    background-color: blue;
+}
+body{
+   align-self: auto; 
 }
