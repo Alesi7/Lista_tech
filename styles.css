@@ -1,5 +1,7 @@
 .container{
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .item{
     list-style: circle;
@@ -9,14 +11,21 @@
     border-radius: 10px;
 }
 .item a{
-    text-decoration: none;
+    text-decoration: silver;
 }
 .item a:hover{
-    color:white;
+    color:rgb(240, 0, 0);
 }
 .item:hover{
-    background-color: blue;
+    background-color: rgb(43, 43, 174);
 }
 body{
-   align-self: auto; 
+   align-self: center; 
+}
+h1{
+    text-align: center;
+}
+ul{
+    border: 5px solid rgb(75, 11, 139);
+    padding: 10.5em;
 }
